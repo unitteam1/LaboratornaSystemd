@@ -9,3 +9,6 @@ WantedBy=multi-user.target
 [Service]
 ExecStart=/C:/User/misha/sample.service
 User=Misha_Remeslo
+Restart=always
+RestartSec=10
+Environment="PORT=8888"
