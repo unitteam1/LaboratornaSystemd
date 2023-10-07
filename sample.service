@@ -7,5 +7,5 @@ After=network.target
 WantedBy=multi-user.target
 
 [Service]
-ExecStart=/C:/User/misha/sample.service
+ExecStart=/etc/systemd/system/sample.service 
 User=Misha_Remeslo
