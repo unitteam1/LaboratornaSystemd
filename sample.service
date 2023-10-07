@@ -1,0 +1,11 @@
+[Unit]
+Description=My Web Server Service
+Requires=network.target
+After=network.target
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+ExecStart=/C:/User/misha/sample.service
+User=Misha_Remeslo
